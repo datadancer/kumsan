@@ -1,2 +1,2 @@
-# KUMSAN: Detecting Uninitialized Memory Use for the Linux Kernel with Taint Tracking
+# KUMSAN: Detecting Uninitialized Memory Usage for the Linux Kernel
 
