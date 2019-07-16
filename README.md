@@ -4,13 +4,16 @@ KUMSAN is a kernel uninitialized memory usage detection tool. It is based on com
 
 ## Patch
 Clone the Linux kernel and apply the patch. The patch is based on linux-5.2-rc4. So download https://git.kernel.org/torvalds/t/linux-5.2-rc4.tar.gz and extract it to linux-5.2-rc4 and do:
-`
+
+```
 cd linux-5.2-rc4
 git apply /path/to/patch
 cp /path/to/example.config .config
-`
+```
+
 Make sure the CONFIG_KASAN is enabled and compile it. For example
-`
+
+```
 grep KASAN example.config # 
 CONFIG_KASAN_SHADOW_OFFSET=0xdffffc0000000000
 CONFIG_HAVE_ARCH_KASAN=y
@@ -21,7 +24,8 @@ CONFIG_KASAN_OUTLINE=y
 # CONFIG_KASAN_INLINE is not set
 CONFIG_KASAN_STACK=1
 CONFIG_TEST_KASAN=m
-`
+```
+
 ## Testing
 You can just modify some kernel code and add some uninitialized memory using codes to test it. Another way to test the kernel is to use the test module. Make sure the  CONFIG_TEST_KASAN=m is set and the lib/test_kasan.ko is generated. Boot the kernel and load the module.
 
