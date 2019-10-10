@@ -112,3 +112,6 @@ Memory state around the buggy address:
  ffff888068812100: 00 00 00 00 fc fc fc fc fc fc fc fc fc fc fc fc
 ==================================================================
 ```
+# Trophies 
+9p: Transport error uninitialized
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/stable-queue.git/diff/queue-5.3/9p-transport-error-uninitialized.patch?id=c70c160a43a1e695533b86ba35e8f612352b60f3
