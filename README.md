@@ -119,6 +119,6 @@ https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?h=ne
 
 [PATCH] 9p: Transport error uninitialized
 
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/stable-queue.git/diff/queue-5.3/9p-transport-error-uninitialized.patch?id=c70c160a43a1e695533b86ba35e8f612352b60f3
+https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?h=next-20191010&id=0ce772fe79b68f83df40f07f28207b292785c677
 
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/stable-queue.git/diff/queue-4.19/9p-transport-error-uninitialized.patch?id=d65b160f6fc8669b1f91f6a737d503b58340c066
+https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?h=next-20191010&id=9977b1a71488742606376c09e19e0074e4403cdf
