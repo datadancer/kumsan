@@ -113,7 +113,11 @@ Memory state around the buggy address:
 ==================================================================
 ```
 # Trophies 
-9p: Transport error uninitialized
+[PATCH] ipc/msg.c: consolidate all xxxctl_down() functions
+
+https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?h=next-20191010&id=7afbb1970dd96ecc7083385cb77c701c81ba870b
+
+[PATCH] 9p: Transport error uninitialized
 
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/stable-queue.git/diff/queue-5.3/9p-transport-error-uninitialized.patch?id=c70c160a43a1e695533b86ba35e8f612352b60f3
 
