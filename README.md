@@ -115,10 +115,8 @@ Memory state around the buggy address:
 # Trophies 
 [PATCH] ipc/msg.c: consolidate all xxxctl_down() functions
 
-https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?h=next-20191010&id=7afbb1970dd96ecc7083385cb77c701c81ba870b
+https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=889b331724c82c11e15ba0a60979cf7bded0a26c
 
 [PATCH] 9p: Transport error uninitialized
 
-https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?h=next-20191010&id=0ce772fe79b68f83df40f07f28207b292785c677
-
-https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?h=next-20191010&id=9977b1a71488742606376c09e19e0074e4403cdf
+https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=0ce772fe79b68f83df40f07f28207b292785c677
